@@ -1,0 +1,7 @@
+{
+  "name": "se-poc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Create Note</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false">
+  <ion-card>
+
+    <ion-card-content>
+      <ion-list lines="none">
+        <form>
+          <ion-item lines="full">
+            <ion-label>Location</ion-label>
+            <ion-select placeholder="Select">
+              <ion-select-option value="f">Location-1</ion-select-option>
+              <ion-select-option value="m">Location-2</ion-select-option>
+              <ion-select-option value="m">Location-3</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item lines="full">
+            <ion-label>Week Day</ion-label>
+            <ion-select placeholder="All" multiple="true">
+              <ion-select-option value="f">ALL</ion-select-option>
+              <ion-select-option value="m">Monday</ion-select-option>
+              <ion-select-option value="m">Tuesday</ion-select-option>
+              <ion-select-option value="m">Wednesday</ion-select-option>
+              <ion-select-option value="m">Thrusday</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>Start Date</ion-label>
+            <ion-datetime displayFormat="DD MMM YYYY" placeholder="Select Date"></ion-datetime>
+          </ion-item>
+          <ion-item>
+            <ion-label>End Date</ion-label>
+            <ion-datetime displayFormat="DD MMM YYYY" placeholder="Select Date"></ion-datetime>
+          </ion-item>
+          <ion-item>
+            <ion-label>Time</ion-label>
+            <ion-datetime displayFormat="hh:mm A" placeholder="Select Time"></ion-datetime>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Comments</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-button>Submit</ion-button>
+            <ion-button>Reset</ion-button>
+          </ion-item>
+        </form>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
