@@ -22,12 +22,12 @@ export class AppComponent {
       icon: 'people'
     },
     {
-      title: 'Schedule',
+      title: 'Schedule-All Views',
       url: '/schedule',
       icon: 'information-circle'
     },
     {
-      title: 'Schedule-OpenSource',
+      title: 'Schedule-Responsive',
       url: '/schedule-os',
       icon: 'information-circle'
     }

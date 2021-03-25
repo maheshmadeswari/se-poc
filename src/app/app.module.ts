@@ -10,9 +10,11 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import { NgCalendarModule } from 'ionic2-calendar';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { ScheduleOsComponent } from './schedule-os/schedule-os.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ScheduleComponent, ScheduleOsComponent],
   entryComponents: [],
   imports: [
     MbscModule,
